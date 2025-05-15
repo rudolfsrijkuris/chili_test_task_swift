@@ -27,6 +27,7 @@
 		A0B081DB2DD4E35A00FA68AF /* chilli_test_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chilli_test_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B081EB2DD4E35B00FA68AF /* chilli_test_taskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chilli_test_taskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B081F52DD4E35B00FA68AF /* chilli_test_taskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chilli_test_taskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B082082DD4E35C00FA68AF /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +76,7 @@
 		A0B081D22DD4E35A00FA68AF = {
 			isa = PBXGroup;
 			children = (
+				A0B082082DD4E35C00FA68AF /* Config.xcconfig */,
 				A0B081DD2DD4E35A00FA68AF /* chilli_test_task */,
 				A0B081EE2DD4E35B00FA68AF /* chilli_test_taskTests */,
 				A0B081F82DD4E35B00FA68AF /* chilli_test_taskUITests */,
@@ -271,6 +273,7 @@
 /* Begin XCBuildConfiguration section */
 		A0B081FD2DD4E35B00FA68AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B082082DD4E35C00FA68AF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -334,6 +337,7 @@
 		};
 		A0B081FE2DD4E35B00FA68AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B082082DD4E35C00FA68AF /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -390,6 +394,7 @@
 		};
 		A0B082002DD4E35B00FA68AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B082082DD4E35C00FA68AF /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +404,8 @@
 				DEVELOPMENT_TEAM = J98D3647JW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "chilli-test-task-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -419,6 +426,7 @@
 		};
 		A0B082012DD4E35B00FA68AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B082082DD4E35C00FA68AF /* Config.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -428,6 +436,8 @@
 				DEVELOPMENT_TEAM = J98D3647JW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "chilli-test-task-Info.plist";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

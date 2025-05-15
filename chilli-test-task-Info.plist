@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GIPHY_API_KEY</key>
+	<string>$(GIPHY_API_KEY)</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Access to your photo library is needed to save GIFs and videos you want to keep.</string>
+</dict>
+</plist>
